@@ -4,15 +4,19 @@
         "build": "snowpack build",
         "lint": "prettier --check \"src/**/*.{js,jsx}\"",
         "lint-format": "prettier --write \"src/**/*.{js,jsx}\"",
-        "lint-test": "prettier --check \"test/**/*.{js,jsx}\""
+        "lint-test": "prettier --check \"test/**/*.{js,jsx}\"",
+        "test": "jest"
     },
     "dependencies": {
         "react": "^17.0.1",
         "react-dom": "^17.0.1"
     },
     "devDependencies": {
+        "@snowpack/app-scripts-react": "^2.0.0",
         "@snowpack/plugin-dotenv": "^2.0.5",
         "@snowpack/plugin-react-refresh": "^2.4.0",
+        "@testing-library/react": "^11.2.3",
+        "jest": "^26.6.3",
         "prettier": "^2.2.1",
         "snowpack": "^3.0.1"
     }
